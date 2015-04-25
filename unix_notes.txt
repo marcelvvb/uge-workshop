@@ -54,3 +54,4 @@ dev/null	a special file that will delete anything written into it
 sort		Sorts the lines of standard input and sends it to standard output
 apt-cache search “insert name here no quotes” searches for packages that contain the word
 sudo apt-get upgrade (updates software to latest version)
+hidden files note
