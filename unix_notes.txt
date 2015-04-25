@@ -1,0 +1,56 @@
+ls 		(list)
+ls -l 	(long list, more detailed)
+ls -a	(list all)
+pwd 	(print working directory)
+cd		(change directory)
+tab		(press tab to complete word or command)
+less	(view context example less hello.txt)
+more	(same as less slightly different)
+cat		(prints the contents of one or more files to the console)
+mv		(moves or renames a file or directory)
+cp		(copy works like move)
+-r		(copies entire directories and files)
+rm		(permanently deletes files)
+cd ../	(moves up directory)
+mkdir	(creates directory)
+su		(switch user)
+whoami	
+chmod	(change permissions, read/r=4, write/w=2, execute/x=1)
+		(3 sections U G O, each can have rwx)
+chown	(change the owner of file/directory)
+sudo	(super user)
+sudo !!	(run previous command as super user)
+top		(show active processes)
+ps		(shows processes status)
+ps aux	(view full list of all processes)
+grep	(search for a pattern)
+ctrl + z		(pause current job)
+ctrl + c		(terminate current process)
+fg			(bring job to foreground)
+jobs		(lists jobs for your session)
+command + & (executes program in background)
+kill or 9	(force a process to exit)
+term		(request a process to close normally)
+stop		(pause or stop a process)
+env		(environment variables)
+bash 		(start a new sessions within your current session)
+VARIABLE=value (set local environment variable)
+export VARIABLE=value (set an environment variable visible to child processes)
+echo		(display the arguments sent to echo)
+find . -name "search" (look for files with the name search starting from your current location)
+grep "pattern" file 	(find any lines that contain the pattern in the given file)
+
+
+grep -n		(will display line numbers for each result)
+grep -i		(removes case sensitivity for search results)
+grep -v		(shows lines without pattern)
+man grep	(shows manual)
+man find	(shows manual)
+<		input file
+>		output file
+command 1 | command 2 pipe the output of command1 to the input of command2
+2>File		redirect standard error stream to file
+dev/null	a special file that will delete anything written into it
+sort		Sorts the lines of standard input and sends it to standard output
+apt-cache search “insert name here no quotes” searches for packages that contain the word
+sudo apt-get upgrade (updates software to latest version)
