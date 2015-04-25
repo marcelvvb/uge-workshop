@@ -1,0 +1,30 @@
+git config -l	(user info)
+git init 		(initialize repository)
+git status		(shows current status)
+git add 		(adding file to staging area)
+git add -a
+git commit -m	(add or remove files from staging area -m or -d)
+git add			(can use to add many files of the same type i.e. git add ‘*.txt’)
+git log			(journal that remembers all changes made)
+git remote add	(takes a remote name and repository)
+git push		(tells Git where to put commits when ready)
+git pull		(show who have pulled changes, made own commits and pushed them)
+gif dif			(to show what’s different from last commit)
+git reset		(removing file)
+git checkout	(changes branches)
+git branch		(alt. branch or copy to make changes without using main then merg
+git branch -D	(deletes branch)
+git rm			(removes files from disk and stage removal)
+git merge		(merge branches)
+git branch -d	(deletes a branch)
+git remote add 	(add pathname or quotes)
+git push 		(push latest changes to remote repository)
+git pull		(pull latest changes from remote reporsitory)
+
+
+
+git config --global user.name “Marcel Buncio”
+git config --global user.email “marcelvvb@gmail.com”
+
+git directories: working directory, staging area and repo
+example - git commit -m “notes here”
