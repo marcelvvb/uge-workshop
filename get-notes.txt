@@ -28,3 +28,5 @@ git config --global user.email “marcelvvb@gmail.com”
 
 git directories: working directory, staging area and repo
 example - git commit -m “notes here”
+
+secret notes
